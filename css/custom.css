@@ -1,0 +1,31 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+
+.tweet-size{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+}
